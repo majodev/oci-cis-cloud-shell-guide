@@ -8,6 +8,11 @@ The goal is to quickly download a list of security recommendations for your OCI 
 <video src="https://github.com/user-attachments/assets/eb954ca5-7ae1-4b30-bf82-f1be7b795a30" width="80%" controls></video>
 </p>
 
+- [OCI CIS Cloud Shell](#oci-cis-cloud-shell)
+  - [Quickstart](#quickstart)
+  - [Further information](#further-information)
+
+
 ## Quickstart
 
 This script has no prerequisites. Simply copy/paste the following commands into your [Cloud Shell](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro.htm) to build a CIS report of your tenancy:   
@@ -40,4 +45,4 @@ Now extract that downloaded `report.zip` and inspect the `cis_summary_report.htm
 
 ## Further information
 
-For further information refer to the [official CIS Compliance Script repository](https://github.com/oci-landing-zones/oci-cis-landingzone-quickstart).
+Regarding required IAM permissions and read-only policies see [here](https://github.com/oci-landing-zones/oci-cis-landingzone-quickstart?tab=readme-ov-file#required-permissions). For all further information refer to the [official CIS Compliance Script repository](https://github.com/oci-landing-zones/oci-cis-landingzone-quickstart).
