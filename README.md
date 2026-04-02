@@ -24,6 +24,7 @@ python3 cis_reports.py -dt --all-resources --report-directory report
 
 # Archive all CIS report files for downloading
 zip -r report.zip report
+
 ```
 
 Inside [Cloud Shell](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cloudshellintro.htm) you should now be able to download the archived report by navigating to "Cog -> Download" (top right) and targeting this file:
@@ -35,4 +36,4 @@ Now extract that downloaded `report.zip` and inspect the `cis_summary_report.htm
 
 ## Further information
 
-For a list of all available args see [cis_reports.py args](https://github.com/oci-landing-zones/oci-cis-landingzone-quickstart?tab=readme-ov-file#arguments).
+For further information refer to the [official CIS Compliance Script repository](https://github.com/oci-landing-zones/oci-cis-landingzone-quickstart).
