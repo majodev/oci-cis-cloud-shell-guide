@@ -13,11 +13,11 @@ This script has no prerequisites. Simply copy/paste the following commands into 
 mkdir -p ~/cis
 cd ~/cis
 
+# Remove previous report files within our current dir
+rm -rf report report.zip > /dev/null
+
 # Get the latest official CIS Compliance Script
 wget https://raw.githubusercontent.com/oci-landing-zones/oci-cis-landingzone-quickstart/main/scripts/cis_reports.py
-
-# Remove previous report files in that directory
-rm -rf report report.zip > /dev/null
 
 # Build the full CIS report
 python3 cis_reports.py -dt --all-resources --report-directory report
